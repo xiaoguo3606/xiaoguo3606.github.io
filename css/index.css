@@ -16,6 +16,51 @@ body,html{
 	top: 0;
 	z-index: 1;
 }
+.bg img{
+	width: 100%;
+	animation: bgframe 8s infinite alternate ;
+}
+@keyframes bgframe{
+	from{
+		transform: scale(1);
+		filter: blur(3px);
+	}
+	to{
+		transform: scale(1.2);
+		filter: blur(0);
+	}
+}
+@-ms-keyframes bgframe{
+	from{
+		-ms-transform: scale(1);
+		filter: blur(3px);
+	}
+	to{
+		-ms-transform: scale(1.2);
+		filter: blur(0);
+	}
+}
+@-moz-keyframes bgframe{
+	from{
+		-moz-transform: scale(1);
+		filter: blur(3px);
+	}
+	to{
+		-moz-transform: scale(1.2);
+		filter: blur(0);
+	}
+}
+@-webkit-keyframes bgframe{
+	from{
+		-webkit-transform: scale(1);
+		filter: blur(3px);
+	}
+	to{
+		-webkit-transform: scale(1.2);
+		filter: blur(0);
+	}
+}
+
 .content{
 	position: absolute;
 	left: 0;
