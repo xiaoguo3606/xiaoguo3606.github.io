@@ -104,10 +104,13 @@ html {
 .content h1 {
 	width: 800px;
 	height: 80px;
-	color: #444;
+	color: #222;
 	text-align: center;
 	line-height: 80px;
-	margin: 100px auto;
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	margin-left: -400px;
 	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 	/* Safari 5.1 - 6.0 */
 	background: -webkit-linear-gradient(90deg,#9795f0, #fbc8d4);
@@ -117,7 +120,38 @@ html {
 	background: -moz-linear-gradient(90deg,#9795f0, #fbc8d4);
 	/* 标准的语法 */
 	background: linear-gradient(90deg,#9795f0, #fbc8d4);
-	border-radius: 10px;
+	border-radius: 20px;
 	box-shadow: 0 5px 10px rgba(127,186,241,0.3);
 	display: none;
+	opacity:0.6;
+}
+.content .headimg{
+	width: 260px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -130px;
+	margin-top: -130px;
+	border-radius: 130px;
+	border: 5px solid #eee;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	display: none;
+	z-index: 10;
+}
+.logo{
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 10px;
+	height: 60px;
+	z-index: 9;
+	opacity: 0;
+}
+.logo img{
+	height: 40px;
+	padding: 10px 30px 10px 40px;
+	background-color: rgba(255,255,255,0.2);
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
 }
