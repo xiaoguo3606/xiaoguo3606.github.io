@@ -118,5 +118,6 @@ html {
 	/* 标准的语法 */
 	background: linear-gradient(90deg,#9795f0, #fbc8d4);
 	border-radius: 10px;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	box-shadow: 0 5px 10px rgba(127,186,241,0.3);
+	display: none;
 }
